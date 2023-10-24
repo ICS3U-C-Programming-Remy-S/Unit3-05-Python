@@ -15,43 +15,43 @@ def main():
     # Check what month corresponds to user month
     match user_month:
         case 1:
-            print("1 represents January.")
+            print("\n1 represents January.")
 
         case 2:
-            print("2 represents February.")
+            print("\n2 represents February.")
 
         case 3:
-            print("3 represents March.")
+            print("\n3 represents March.")
 
         case 4:
-            print("4 represents May.")
+            print("\n4 represents May.")
 
         case 5:
-            print("5 represents May.")
+            print("\n5 represents May.")
 
         case 6:
-            print("6 represents June.")
+            print("\n6 represents June.")
 
         case 7:
-            print("7 represents July.")
+            print("\n7 represents July.")
 
         case 8:
-            print("8 represents August.")
+            print("\n8 represents August.")
 
         case 9:
-            print("9 represents September.")
+            print("\n9 represents September.")
 
         case 10:
-            print("10 represents October.")
+            print("\n10 represents October.")
 
         case 11:
-            print("11 represents November.")
+            print("\n11 represents November.")
 
         case 12:
-            print("12 represents December.")
+            print("\n12 represents December.")
 
         case _:
-            print("{} is not a valid number.".format(user_month))
+            print("\n{} is not a valid number.".format(user_month))
 
 
 if __name__ == "__main__":
