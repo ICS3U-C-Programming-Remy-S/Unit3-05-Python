@@ -8,7 +8,7 @@
 
 def main():
     # Get the user guess and display message
-    print("This program will ask the user for a number")
+    print("This program will ask the user for a number from 1 to 12")
     print("then it will tell them what month corresponds to it.")
     user_month = int(input("Please enter a integer: "))
 
@@ -51,7 +51,7 @@ def main():
             print("12 represents December.")
 
         case _:
-            print("Please enter a valid number.")
+            print("{} is not a valid number.".format(user_month))
 
 
 if __name__ == "__main__":
